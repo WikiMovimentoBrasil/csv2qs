@@ -1,11 +1,27 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-</head>
-<body>
-    <p>Página inicial</p>
-    <a href="/arquivo">Enviar arquivo</a>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}{{ _("Página inicial") }}{% endblock %}
+
+{% block navbar %}
+    {% with lang=lang %}
+        {% include 'topnavbar.html' %}
+    {% endwith %}
+{% endblock %}
+
+{% block content %}
+    <div class="w3-container">
+        <div class="w3-container w3-quarter"></div>
+        <div class="w3-container w3-half" style="text-align: center">
+            <form method="POST" enctype="multipart/form-data" id="send_file">
+                <label for="file_uploaded">{{ _("Carregue o seu arquivo .csv") }}</label>
+                <br>
+                <input type="file" class="button" id="file_uploaded" name="file_uploaded"
+                       style="margin:1rem 0 2rem 0">
+            </form>
+            <button type="submit" form="send_file" value="send"
+                    style="max-width:200px; width:100%; background-color:#6667ab; color:white; padding:1.5rem; border-radius:0.5rem">
+                {{ _('Enviar para o QuickStatements') }}
+            </button>
+        </div>
+    </div>
+{% endblock %}

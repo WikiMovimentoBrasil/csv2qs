@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block navbar %}
+    {% with lang=lang %}
+        {% include 'topnavbar.html' %}
+    {% endwith %}
+{% endblock %}
+
+{% block title %}{{ _("Sobre") }}{% endblock %}
+
+{% block content %}
+<div class="w3-row" id="about" style="text-align: center">
+    <div class="w3-container w3-quarter"></div>
+    <div class="w3-container w3-half" style="font-size: 125%; text-align: left">
+        <p>
+            {{_("Este aplicativo busca resolver o problema de erros gerados na importação de arquivos .csv para o <a href='https://quickstatements.toolforge.org' title='ferramenta QuickStatements'>QuickStatements</a>.")}}<br><br>
+            {{_("Para utilizá-lo, estruture o seu arquivo .csv com a <a href='https://www.wikidata.org/wiki/Help:QuickStatements#CSV_file_syntax' title='sintaxe de arquivo CSV'>sintaxe para QuickStatements</a>.")}}
+        </p>
+        <hr>
+        <p>
+            {% set flask %}<a target='_blank' href='https://pt.wikipedia.org/wiki/Flask_(framework_web)'><i>{{_("Flask")}}</i></a>{% endset %}
+            {% set github %}<a target='_blank' href='https://github.com/WikiMovimentoBrasil/csv2qs'>{{_("GitHub")}}</a>{% endset %}
+            {% set license_code %}<a target='_blank' href='https://github.com/WikiMovimentoBrasil/csv2qs/blob/master/LICENSE'>{{_("GPL v3.0")}}</a>{% endset %}
+            {% set license_text %}<a target='_blank' href='https://creativecommons.org/licenses/by-sa/4.0/'>{{_("CC-BY-SA 4.0 Internacional")}}</a>{% endset %}
+            <small>
+                {{_("Este aplicativo foi desenvolvido em %(flask)s.", flask=flask)}}<br>
+                {{_("O código-fonte está disponível no %(github)s.", github=github)}}<br>
+                {{_("Licença do cógido-fonte: %(license_code)s.", license_code=license_code)}}<br>
+                {{_("Licença de textos: %(license_text)s.", license_text=license_text)}}<br>
+                {{_("Versão 1.0.")}}
+            </small>
+        </p>
+    </div>
+</div>
+{% endblock %}
