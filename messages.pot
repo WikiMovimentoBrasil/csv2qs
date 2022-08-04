@@ -1,0 +1,117 @@
+# Translations template for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-08-04 16:40-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: templates/about.html:9 templates/topnavbar.html:3
+msgid "Sobre"
+msgstr ""
+
+#: templates/about.html:16
+msgid ""
+"Este aplicativo busca resolver o problema de erros gerados na importação "
+"de arquivos .csv para o <a href='https://quickstatements.toolforge.org' "
+"title='ferramenta QuickStatements'>QuickStatements</a>."
+msgstr ""
+
+#: templates/about.html:17
+msgid ""
+"Para utilizá-lo, estruture o seu arquivo .csv com a <a "
+"href='https://www.wikidata.org/wiki/Help:QuickStatements#CSV_file_syntax'"
+" title='sintaxe de arquivo CSV'>sintaxe para QuickStatements</a>."
+msgstr ""
+
+#: templates/about.html:21
+msgid "Flask"
+msgstr ""
+
+#: templates/about.html:22
+msgid "GitHub"
+msgstr ""
+
+#: templates/about.html:23
+msgid "GPL v3.0"
+msgstr ""
+
+#: templates/about.html:24
+msgid "CC-BY-SA 4.0 Internacional"
+msgstr ""
+
+#: templates/about.html:26
+#, python-format
+msgid "Este aplicativo foi desenvolvido em %(flask)s."
+msgstr ""
+
+#: templates/about.html:27
+#, python-format
+msgid "O código-fonte está disponível no %(github)s."
+msgstr ""
+
+#: templates/about.html:28
+#, python-format
+msgid "Licença do cógido-fonte: %(license_code)s."
+msgstr ""
+
+#: templates/about.html:29
+#, python-format
+msgid "Licença de textos: %(license_text)s."
+msgstr ""
+
+#: templates/about.html:30
+msgid "Versão 1.0."
+msgstr ""
+
+#: templates/base.html:12 templates/home.html:3 templates/topnavbar.html:2
+msgid "Página inicial"
+msgstr ""
+
+#: templates/base.html:12
+msgid "CSV para QS"
+msgstr ""
+
+#: templates/base.html:24 templates/base.html:27
+msgid "Logotipo CSV2QS"
+msgstr ""
+
+#: templates/base.html:38
+msgid "Wiki Movimento Brasil"
+msgstr ""
+
+#: templates/base.html:38
+msgid "Grupo de usuários Wiki Movimento Brasil"
+msgstr ""
+
+#: templates/base.html:39
+#, python-format
+msgid ""
+"<i>CSV para QS</i> é um aplicativo desenvolvido pelo "
+"<i><b>%(projeto)s</b></i> que converte um arquivo .csv em comandos para "
+"Quick Statements."
+msgstr ""
+
+#: templates/home.html:16
+msgid "Carregue o seu arquivo .csv"
+msgstr ""
+
+#: templates/home.html:23
+msgid "Enviar para o QuickStatements"
+msgstr ""
+
+#: templates/topnavbar.html:6
+msgid "Menu"
+msgstr ""
+
