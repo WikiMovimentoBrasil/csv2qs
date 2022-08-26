@@ -7,8 +7,12 @@ It provides the contents of a CSV file in a format understandable to QuickStatem
 
 This tool is available live at: https://csv2qs.toolforge.org/
 
-## Installation
+## Converting CSV to QS
+1. Go to [csv2qs](https://csv2qs.toolforge.org/)
+2. Upload your csv file using the [proper syntax](https://www.wikidata.org/wiki/Help:QuickStatements/en#CSV_file_syntax). If you prefer, use the [model file]() only as a test
+3. Finally, click Submit to QuickStatements
 
+## Installation
 There are several packages need to this application to function. All of them are listed in the <code>requeriments.txt</code> file. To install them, use
 
 ```bash
