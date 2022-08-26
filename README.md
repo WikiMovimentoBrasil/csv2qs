@@ -9,7 +9,7 @@ This tool is available live at: https://csv2qs.toolforge.org/
 
 ## Converting CSV to QS
 1. Go to [csv2qs](https://csv2qs.toolforge.org/)
-2. Upload your csv file using the [proper syntax](https://www.wikidata.org/wiki/Help:QuickStatements/en#CSV_file_syntax). If you prefer, use the [model file]() only as a test
+2. Upload your csv file using the [proper syntax](https://www.wikidata.org/wiki/Help:QuickStatements/en#CSV_file_syntax). If you prefer, use the [model file](model.csv) only as a test
 3. Finally, click Submit to QuickStatements
 
 ## Installation
