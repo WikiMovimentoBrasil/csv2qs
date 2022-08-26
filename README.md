@@ -19,6 +19,13 @@ There are several packages need to this application to function. All of them are
 pip install -r requirements.txt
 ```
 
+You also need to set the configuration file. Your config file should look like this:
+```bash
+SECRET_KEY: "YOUR_SECRET_KEY"
+BABEL_DEFAULT_LOCALE: "pt"
+LANGUAGES: ["pt","en"]
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
